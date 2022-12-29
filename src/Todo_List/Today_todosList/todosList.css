@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+label{
+    color: rgb(15, 7, 176);
+    font-weight: 500;
+    font-family:'Alata', sans-serif;
+    margin-left: 6px;
+}
+#head{
+    color: rgb(12, 110, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+#btn{
+    border-radius: 20px;
+    width: 70px;
+}

@@ -1,0 +1,84 @@
+{
+  "todos": [
+    {
+      "task": "Walking",
+      "startTime": "06:00",
+      "endTime": "07:00",
+      "category": "Family",
+      "status": "Completed",
+      "id": 1
+    },
+    {
+      "task": "Running",
+      "startTime": "07:30",
+      "endTime": "08:00",
+      "category": "Personal",
+      "status": "Pending",
+      "id": 2
+    },
+    {
+      "task": "Yoga",
+      "startTime": "18:30",
+      "endTime": "19:30",
+      "category": "Family",
+      "status": "Pending",
+      "id": 3
+    },
+    {
+      "task": "Project",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "Work",
+      "status": "Not Yet Started",
+      "id": 4
+    },
+    {
+      "task": "Client Meeting",
+      "startTime": "01:30",
+      "endTime": "02:30",
+      "category": "Work",
+      "status": "Pending",
+      "id": 5
+    },
+    {
+      "task": "Marketing",
+      "startTime": "04:00",
+      "endTime": "05:00",
+      "category": "Work",
+      "status": "Not Yet Started",
+      "id": 6
+    },
+    {
+      "task": "Stock Market",
+      "startTime": "07:00",
+      "endTime": "07:30",
+      "category": "Personal",
+      "status": "Completed",
+      "id": 7
+    },
+    {
+      "task": "Movie",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "Family",
+      "status": "Not Yet Started",
+      "id": 8
+    },
+    {
+      "task": "Client Meeting",
+      "startTime": "03:00",
+      "endTime": "04:00",
+      "category": "Work",
+      "status": "Not Yet Started",
+      "id": 9
+    },
+    {
+      "task": "Dinner",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "category": "Family",
+      "status": "Pending",
+      "id": 10
+    }
+  ]
+}
