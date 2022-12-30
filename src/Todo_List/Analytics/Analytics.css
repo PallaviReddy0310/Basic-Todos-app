@@ -7,12 +7,18 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #card{
-    background-color: rgb(103, 255, 56);
+    background-color: rgb(143, 252, 241);
 }
 #bttn{
     border-radius: 30px;
 }
 #dispTodo{
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 22px;
+    background-color: rgb(252, 44, 44);
+    color: aliceblue;
+}
+#tHead{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(14, 1, 203);
 }

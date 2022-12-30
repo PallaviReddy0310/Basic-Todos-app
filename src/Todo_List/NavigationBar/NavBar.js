@@ -19,7 +19,7 @@ function NavigationBar() {
 
   return (
       <nav className="navbar navbar-expand-sm bg-light navbar-light p-0">
-    <img id='img' src='https://img.freepik.com/free-vector/people-making-list-illustration_53876-64623.jpg?size=626&ext=jpg&ga=GA1.2.1363277684.1672145996&semt=sph' width='100px' height='90px' />
+    <img id='img' src='https://img.freepik.com/free-vector/people-making-list-illustration_53876-64623.jpg?size=626&ext=jpg&ga=GA1.2.1363277684.1672145996&semt=sph' width='100px' height='80px' />
     <button data-bs-target="#menu" data-bs-toggle="collapse" className="navbar-toggler">
       <span className="navbar-toggler-icon"></span>
     </button>

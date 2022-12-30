@@ -64,8 +64,12 @@ function Analytics() {
 
   //Delete todo
   let deleteTodo=(todoId)=>{
-    let newTodos=todos.filter((todo)=>todo.id!==todoId);
-    setTodos(newTodos);
+    axios.delete(`http://localhost:4000/todos/${todoId}`)
+    .then(res=>{
+      if(res.status===200)
+        getTodos();
+    })
+    
   }
 
 
@@ -76,7 +80,7 @@ function Analytics() {
 
     <div className='mx-auto text-center'>
       <div className='display-6 text-center mt-3' id='todoCount'>Todo Count : {todos.length}</div>
-      <button data-bs-target='#showTodos' data-bs-toggle='collapse' className='btn btn-info mt-3 mb-3' id='dispTodo'>Show Todos</button>
+      <button data-bs-target='#showTodos' data-bs-toggle='collapse' className='btn mt-3 mb-3' id='dispTodo'>Show Todos</button>
       <div className='collapse' id='showTodos'>
         {err.length!==0 && <p className='display-4 text-danger'>{err}</p>}
       <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3'>
@@ -84,12 +88,12 @@ function Analytics() {
         todos.map((todo)=><div key={todo.id} className='col mx-auto'>
           <div className='card mb-4 px-2 py-2' id='card'>
             <div className='cardBody card-body text-center'>
-          <p className='fs-5 bold'>{todo.id}. {todo.task}</p>
+          <p className='fs-4 lead' id='tHead'>{todo.task}</p>
           <p className='fs-6'>Start Time : {todo.startTime}</p>
           <p className='fs-6'>End Time : {todo.endTime}</p>
           <p className='fs-6'>Category : {todo.category}</p>
           <p className='fs-6'>Status : {todo.status}</p>
-          <button className='btn btn-secondary float-start' id='edit' onClick={()=>editTodo(todo)}>Edit</button>
+          <button className='btn btn-dark float-start' id='edit' onClick={()=>editTodo(todo)}>Edit</button>
           <button className='btn btn-danger float-end' id='del' onClick={()=>deleteTodo(todo.id)}>Delete</button>
           </div>
           </div>

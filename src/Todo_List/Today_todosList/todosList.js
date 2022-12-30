@@ -5,7 +5,7 @@ import axios from 'axios';
 import './todosList.css';
 import {IoAddSharp} from 'react-icons/io5';
 
-function TodosList() {
+function TodosList(props) {
 
   // useForm 
   let {register,handleSubmit,formState:{errors}}=useForm();
@@ -65,9 +65,7 @@ function TodosList() {
         <button type='submit' id='btn' className='btn btn-success float-end fs-5 h-50 mb-3'><span><IoAddSharp /></span></button>
       </form>    
       </div>
-     </div>
-
-     
+      </div>
      </div>
   )
 }
