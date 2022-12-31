@@ -12,7 +12,6 @@ Table of Contents
       - [Database](#database)
   * [Configuration and Setup](#configuration-and-setup)
   * [Author](#author)
-  * [License](#license)
 
 
 ## Introduction
