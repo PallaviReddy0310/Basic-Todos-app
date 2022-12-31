@@ -13,16 +13,8 @@
       "startTime": "12:00",
       "endTime": "01:30",
       "category": "Work",
-      "status": "Pending",
+      "status": "Completed",
       "id": 3
-    },
-    {
-      "task": "Dinner",
-      "startTime": "21:00",
-      "endTime": "22:00",
-      "category": "Personal",
-      "status": "Not Yet Started",
-      "id": 4
     }
   ]
 }

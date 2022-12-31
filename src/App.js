@@ -3,6 +3,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './Todo_List/RootLayout/RootLayout';
 import TodosList from './Todo_List/Today_todosList/todosList';
+import Recents from './Todo_List/Recents/Recents';
 import Analytics from './Todo_List/Analytics/Analytics';
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
     {
       path:'/',
       element:<TodosList />
+    },
+    {
+      path:'/recents',
+      element:<Recents />
     },
     {
       path:'/analytics',

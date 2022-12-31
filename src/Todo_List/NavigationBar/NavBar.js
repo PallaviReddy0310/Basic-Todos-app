@@ -31,6 +31,11 @@ function NavigationBar() {
           }}>Today</NavLink>
         </li>
         <li className="nav-item mx-5">
+          <NavLink className="nav-link" to="/recents"  style={({isActive})=>{
+            return isActive? activeLink:inactiveLink;
+          }}>Recents</NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink className="nav-link" to="/analytics"  style={({isActive})=>{
             return isActive? activeLink:inactiveLink;
           }}>Analytics</NavLink>
