@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Todos List Layout Application
+Built with the ReactJS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Table of Contents
+----
 
-In the project directory, you can run:
+  * [Introduction](#introduction)
+  * [Key Features](#key-features)
+  * [Technologies used](#technologies-used)
+      - [Client](#client)
+      - [Database](#database)
+  * [Configuration and Setup](#configuration-and-setup)
+  * [Author](#author)
+  * [License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
+This is a project I've been working on. It's a todo list layout application made using ReactJS, HTML, Bootstrap and CSS. With this application, one can create todos, go through their todos list and work on them.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Key Features
+- Add todos.
+- Edit their todos.
+- Set time limit for each todo.
+- Update status of the task.
+- Select the category of the todos.
+- Delete a todo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technologies used
+This project was created using the following technologies.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Client
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React JS
+- React-router-dom (To handle routing)
+- Axios (For making api calls)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### Database
+Local API (To store the todos)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Configuration and Setup
+In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine. 
+- Open the project in your prefered code editor.
+- Go to terminal -> New terminal (If you are using VS code)
+- Split your terminal into two (run the client on one terminal and the database server on the other terminal)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In the first terminal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+$ npm install (to install client-side dependencies)
+$ npm start (to start the client)
+```
+In the second terminal
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+$ npm install -g json-server (to install server-side dependencies)
+$ npx json-server --watch db.json --port 4000 (to start the server)
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github: [@PallaviReddy0310](https://github.com/PallaviReddy0310)
+- Email: [@pallavireddy0310](mailto:pallavireddy0310@gmail.com)
